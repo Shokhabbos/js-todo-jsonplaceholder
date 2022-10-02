@@ -1,14 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TO DO</title>
-    <link rel="stylesheet" href="main.css">
-</head>
-<body>
-    <h1>Hello Todo</h1>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <h1 class="card__title">Todo List</h1>
+        <form>
+          <div class="card__search-holder">
+            <img
+              src="images/search-icon.png"
+              alt="search icon"
+              width="20"
+              height="20"
+            />
+            <input type="text" id="searchInput" placeholder="search todos" />
+          </div>
+          <span></span>
+        </form>
+        <div class="todos">
+          <ul>
+            <li>
+              <span>Order pizza</span>
+              <div class="todos__img-holder">
+                <img
+                  src="images/edit-icon.png"
+                  alt="Edit Button"
+                  width="20"
+                  height="20"
+                />
+                <img
+                  src="images/delete-icon.png"
+                  alt="Delete Button"
+                  width="20"
+                  height="20"
+                />
+              </div>
+            </li>
+            <li>
+              <span>Order pizza</span>
+              <div class="todos__img-holder">
+                <img
+                  src="images/edit-icon.png"
+                  alt="Edit Button"
+                  width="20"
+                  height="20"
+                />
+                <img
+                  src="images/delete-icon.png"
+                  alt="Delete Button"
+                  width="20"
+                  height="20"
+                />
+              </div>
+            </li>
+            <li>
+              <span>Order pizza</span>
+              <div class="todos__img-holder">
+                <img
+                  src="images/edit-icon.png"
+                  alt="Edit Button"
+                  width="20"
+                  height="20"
+                />
+                <img
+                  src="images/delete-icon.png"
+                  alt="Delete Button"
+                  width="20"
+                  height="20"
+                />
+              </div>
+            </li>
+            <li>
+              <span>Order pizza</span>
+              <div class="todos__img-holder">
+                <img
+                  src="images/edit-icon.png"
+                  alt="Edit Button"
+                  width="20"
+                  height="20"
+                />
+                <img
+                  src="images/delete-icon.png"
+                  alt="Delete Button"
+                  width="20"
+                  height="20"
+                />
+              </div>
+            </li>
+            <li>
+              <span>Order pizza</span>
+              <div class="todos__img-holder">
+                <img
+                  src="images/edit-icon.png"
+                  alt="Edit Button"
+                  width="20"
+                  height="20"
+                />
+                <img
+                  src="images/delete-icon.png"
+                  alt="Delete Button"
+                  width="20"
+                  height="20"
+                />
+              </div>
+            </li>
+          </ul>
+        </div>
+        <form>
+          <div class="card__input-holder">
+            <p>Add new todo...</p>
+            <form>
+              <input type="text" id="addInput" placeholder="add something..." />
+            </form>
+            <span></span>
+          </div>
+          <span></span>
+        </form>
+      </div>
+    </div>
     <script src="main.js"></script>
-</body>
+  </body>
 </html>
